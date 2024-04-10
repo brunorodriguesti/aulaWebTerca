@@ -1,0 +1,34 @@
+.bloco1 {
+  background-color: #857b22;
+  margin-left: 35%;
+  height: 50px;
+  width: 200px;
+  border: 2px solid black;
+  position: relative;
+  top: 30px;
+}
+
+#bloco2 {
+  background-color: cadetblue;
+  /*  border: 2px solid black;*/
+  padding: 2em;
+  margin-top: 100px;
+}
+
+h1 {
+  color: rgb(124, 45, 45);
+  font-size: 50px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.elemento {
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 2px solid black;
+  height: 50px;
+}
+
+body {
+  background-color: rgb(223, 200, 170);
+}

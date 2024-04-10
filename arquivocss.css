@@ -1,0 +1,79 @@
+#divA {
+  width: 100px;
+  height: 100px;
+  border: thin solid red;
+  overflow: auto;
+}
+#teste {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition-property: background, width, heigth;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+
+#teste:hover {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  background-color: rgb(142, 214, 79);
+  float: right;
+}
+.item {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: blue;
+  position: fixed;
+}
+BODY {
+  height: 8.5in;
+} /* Este é um comentário*/
+#header {
+  position: fixed;
+  width: 100%;
+  height: 15%;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  border: 1px solid black;
+}
+#sidebar {
+  position: fixed;
+  width: 10em;
+  height: auto;
+  top: 15%;
+  right: auto;
+  bottom: 100px;
+  left: 0;
+  border: 1px solid black;
+}
+#main {
+  position: fixed;
+  width: auto;
+  height: auto;
+  top: 15%;
+  right: 0;
+  bottom: 100px;
+  left: 10em;
+  border: 1px solid black;
+}
+
+#footer {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid black;
+}
